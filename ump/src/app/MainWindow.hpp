@@ -1,11 +1,13 @@
-#ifndef MAINWINDOW_HPP
-#define MAINWINDOW_HPP
+#ifndef UMP_APP_MAIN_WINDOW_HPP
+#define UMP_APP_MAIN_WINDOW_HPP
 
 #include <QMainWindow>
 
 namespace Ui {
 class MainWindow;
 }
+
+namespace ump { namespace app {
 
 class MainWindow : public QMainWindow
 {
@@ -16,7 +18,9 @@ public:
     ~MainWindow();
 
 private:
-    Ui::MainWindow *ui;
+    Ui::MainWindow *m_ui;
 };
 
-#endif // MAINWINDOW_HPP
+} } // namespace ump::app
+
+#endif // UMP_UI_MAIN_WINDOW_HPP

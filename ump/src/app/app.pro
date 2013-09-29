@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2013-09-21T16:19:41
+# Project created by QtCreator 2013-09-29T15:40:10
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = UntitledMusicPlayer
+TARGET = app
 TEMPLATE = app
 
 
