@@ -23,4 +23,4 @@ private:
 
 } } // namespace ump::app
 
-#endif // UMP_UI_MAIN_WINDOW_HPP
+#endif // UMP_APP_MAIN_WINDOW_HPP
